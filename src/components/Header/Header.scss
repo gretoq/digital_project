@@ -1,0 +1,26 @@
+.nav-bar {
+  padding: 0 135px 0 135px;
+
+  &__container {
+    align-items: center;
+  }
+
+  &__logo {
+    width: 70px;
+    height: 44px;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.navigation {
+  &__list {
+    display: flex;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 60px;
+  }
+}
