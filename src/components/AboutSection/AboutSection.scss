@@ -1,0 +1,41 @@
+@import '../../styles/utils';
+
+.about-section {
+  padding-top: 30px;
+  max-height: 435px;
+  background-color: $colorGray;
+
+  &__double-photo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  &__single-photo-container {
+    align-self: center;
+  }
+
+  &__descrition-container {
+    & > *:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__title {
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+
+    color: $colorSecondary;
+  }
+
+  &__description {
+    max-width: 400px;
+
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+
+    color: $colorDark;
+  }
+}
