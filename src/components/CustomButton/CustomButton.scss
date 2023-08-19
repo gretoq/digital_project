@@ -1,0 +1,38 @@
+@import '../../styles/utils';
+
+.custom-button {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+
+  font-family: 'TT Hoves';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+
+  border: 1px solid $colorArrowBorder;
+  background: $colorLight;
+
+  &--with-text {
+    padding: 24px 50px;
+  }
+
+  &--banner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  &--without-border {
+    border: none;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+    color: $colorHover;
+  }
+}
