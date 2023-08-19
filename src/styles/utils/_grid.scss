@@ -3,7 +3,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 16px;
+  column-gap: 30px;
 
   @include onTablet {
     grid-template-columns: repeat(12, 1fr);
