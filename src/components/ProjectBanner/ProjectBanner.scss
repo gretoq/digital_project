@@ -1,0 +1,11 @@
+@import '../../styles/utils';
+
+.project-banner {
+  aspect-ratio: 9288/10000;
+
+  position: relative;
+
+  background-image: url('../../../public/images/banner.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}

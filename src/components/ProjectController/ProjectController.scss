@@ -1,0 +1,57 @@
+@import '../../styles/utils';
+
+.project-controller {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 90px;
+
+  &__title-container {
+    display: flex;
+    flex-direction: column;
+    order: 3;
+  }
+
+  &__title {
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+
+    text-transform: uppercase;
+  }
+
+  &__title--light {
+    color: $colorSecondary;
+  }
+
+  &__title--dark {
+    color: $colorDark;
+    font-weight: 700;
+  }
+
+  &__controllers-container {
+    display: flex;
+    gap: 24px;
+    order: 2;
+  }
+
+  &__paging {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    order: 1;
+
+    margin-bottom: 104px;
+
+    font-size: 24px;
+    font-weight: 400;
+    color: $colorSecondary;
+  }
+
+  &__delimetr {
+    display: inline-block;
+
+    transform: rotateY(180deg);
+
+    font-size: 33px;
+  }
+}
