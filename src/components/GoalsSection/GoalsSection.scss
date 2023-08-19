@@ -1,0 +1,42 @@
+@import '../../styles/utils';
+
+.goals-section {
+  &__title {
+    margin-bottom: 60px;
+
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+
+    color: $colorSecondary;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__item-title {
+    font-family: 'SF Pro Display';
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+    color: $colorSecondary;
+  }
+
+  &__item-description {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+
+    color: $colorPrimary;
+  }
+
+  &__item-description--first {
+    max-width: 280px;
+  }
+}

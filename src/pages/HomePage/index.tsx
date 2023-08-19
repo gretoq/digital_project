@@ -3,6 +3,7 @@ import './HomePage.scss';
 import React from 'react';
 
 import { AboutSection } from '../../components/AboutSection';
+import { GoalsSection } from '../../components/GoalsSection';
 import { ProjectHome } from '../../components/ProjectHome';
 
 export const HomePage = () => {
@@ -12,7 +13,11 @@ export const HomePage = () => {
         <ProjectHome />
       </div>
 
-      <AboutSection />
+      <div style={{ marginBottom: '120px' }}>
+        <AboutSection />
+      </div>
+
+      <GoalsSection />
     </>
   );
 };
