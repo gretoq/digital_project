@@ -1,0 +1,29 @@
+@import '../../styles/utils';
+
+.project-collection {
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    margin-bottom: 60px;
+
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 64px;
+
+    color: $colorSecondary;
+  }
+
+  &__container {
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  &__button {
+    align-self: flex-end;
+  }
+}

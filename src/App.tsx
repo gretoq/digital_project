@@ -14,10 +14,10 @@ import { SertificatsPage } from './pages/SertificatsPage';
 function App() {
   return (
     <div className="app">
-      <main className="main">
+      <main className="app__main">
         <Header />
 
-        <div className="container">
+        <div className="app__content-container">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/gallery" element={<GalleryPage />} />

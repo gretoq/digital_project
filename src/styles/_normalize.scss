@@ -26,3 +26,7 @@ html {
   -webkit-font-smoothing: antialiased;
   background-color: $colorLight;
 }
+
+body {
+  overflow-x: hidden;
+}

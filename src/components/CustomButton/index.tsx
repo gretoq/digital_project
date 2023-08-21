@@ -9,6 +9,8 @@ interface Props {
   isBanner?: boolean;
   isLeft?: boolean;
   isWithoutBorder?: boolean;
+  ghost?: boolean;
+  dark?: boolean;
   onClick?: () => void;
 }
 
@@ -17,6 +19,8 @@ export const CustomButton: React.FC<Props> = ({
   isBanner,
   isLeft,
   isWithoutBorder,
+  ghost,
+  dark,
   onClick,
 }) => (
   <button
@@ -27,6 +31,8 @@ export const CustomButton: React.FC<Props> = ({
       },
       { 'custom-button--banner': isBanner },
       { 'custom-button--without-border': isWithoutBorder },
+      { 'custom-button--ghost': ghost },
+      { 'custom-button--dark': dark },
     )}
     onClick={onClick}
   >

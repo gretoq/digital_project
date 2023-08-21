@@ -1,0 +1,55 @@
+@import '../../styles/utils';
+
+.project-card {
+  position: relative;
+
+  overflow: hidden;
+
+  cursor: pointer;
+
+  &__image {
+    display: block;
+  }
+
+  &--hover {
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-color: $colorPrimary;
+    opacity: 0;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &__hover-container {
+    max-width: 85%;
+  }
+
+  &__title {
+    margin-bottom: 14px;
+
+    text-transform: uppercase;
+
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+
+    color: $colorLight;
+  }
+
+  &__button {
+    align-self: flex-start;
+  }
+}
