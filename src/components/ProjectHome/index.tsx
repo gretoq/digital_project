@@ -7,9 +7,9 @@ import { ProjectController } from '../ProjectController';
 
 export const ProjectHome = () => {
   return (
-    <section className="project-home grid">
+    <div className="project-home grid">
       <ProjectController />
       <ProjectBanner />
-    </section>
+    </div>
   );
 };

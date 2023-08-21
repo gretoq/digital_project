@@ -8,6 +8,7 @@ import { ContactsPage } from './pages/ContactsPage';
 import { GalleryPage } from './pages/GalleryPage';
 import { HomePage } from './pages/HomePage';
 import { NotFoundPage } from './pages/NotFoundPage';
+import { PrivacyPolicyPage } from './pages/PrivacyPolicyPage';
 import { ProjectsPage } from './pages/ProjectsPage';
 import { SertificatsPage } from './pages/SertificatsPage';
 
@@ -24,6 +25,7 @@ function App() {
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/sertificats" element={<SertificatsPage />} />
             <Route path="/contacts" element={<ContactsPage />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </div>

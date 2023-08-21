@@ -11,6 +11,7 @@ interface Props {
   isWithoutBorder?: boolean;
   ghost?: boolean;
   dark?: boolean;
+  disabled?: boolean;
   onClick?: () => void;
 }
 
@@ -21,6 +22,7 @@ export const CustomButton: React.FC<Props> = ({
   isWithoutBorder,
   ghost,
   dark,
+  disabled,
   onClick,
 }) => (
   <button
@@ -35,6 +37,7 @@ export const CustomButton: React.FC<Props> = ({
       { 'custom-button--dark': dark },
     )}
     onClick={onClick}
+    disabled={disabled}
   >
     {text ? text : ''} {isLeft ? <BsArrowLeft /> : <BsArrowRight />}
   </button>

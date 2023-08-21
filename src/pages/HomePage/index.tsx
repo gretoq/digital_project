@@ -3,6 +3,7 @@ import './HomePage.scss';
 import React from 'react';
 
 import { AboutSection } from '../../components/AboutSection';
+import { ContactUs } from '../../components/ContactUs';
 import { GoalsSection } from '../../components/GoalsSection';
 import { ProjectCollection } from '../../components/ProjectCollection';
 import { ProjectHome } from '../../components/ProjectHome';
@@ -10,21 +11,25 @@ import { ProjectHome } from '../../components/ProjectHome';
 export const HomePage = () => {
   return (
     <>
-      <div style={{ marginBottom: '120px' }}>
+      <section style={{ marginBottom: '120px' }}>
         <ProjectHome />
-      </div>
+      </section>
 
-      <div style={{ marginBottom: '120px' }}>
+      <section style={{ marginBottom: '120px' }}>
         <AboutSection />
-      </div>
+      </section>
 
-      <div style={{ marginBottom: '120px' }}>
+      <section style={{ marginBottom: '120px' }}>
         <GoalsSection />
-      </div>
+      </section>
 
-      <div style={{ marginBottom: '120px' }}>
+      <section style={{ marginBottom: '120px' }}>
         <ProjectCollection />
-      </div>
+      </section>
+
+      <section style={{ marginBottom: '120px' }}>
+        <ContactUs />
+      </section>
     </>
   );
 };

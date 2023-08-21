@@ -1,0 +1,23 @@
+@import '../../styles/utils';
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    margin-bottom: 22px;
+
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 64px;
+
+    color: $colorSecondary;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}

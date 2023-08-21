@@ -4,7 +4,7 @@ import React from 'react';
 
 export const GoalsSection = () => {
   return (
-    <section className="goals-section">
+    <div className="goals-section">
       <h3 className="goals-section__title">Основые задачи</h3>
 
       <div className="goals-section__container grid">
@@ -27,6 +27,6 @@ export const GoalsSection = () => {
           </p>
         </div>
       </div>
-    </section>
+    </div>
   );
 };

@@ -6,7 +6,7 @@ import { CustomButton } from '../CustomButton';
 
 export const AboutSection = () => {
   return (
-    <section className="about-section grid">
+    <div className="about-section grid">
       <div className="about-section__double-photo-container grid__item--desktop-2-4">
         <img
           src="images/about/building_mini.svg"
@@ -42,6 +42,6 @@ export const AboutSection = () => {
 
         <CustomButton text="Читать" isWithoutBorder />
       </div>
-    </section>
+    </div>
   );
 };

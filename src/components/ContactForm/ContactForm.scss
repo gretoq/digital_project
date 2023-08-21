@@ -1,0 +1,59 @@
+@import '../../styles/utils';
+
+.form {
+  width: 391px;
+
+  display: flex;
+  flex-direction: column;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+
+  &__input-field {
+    width: 100%;
+    height: 45px;
+
+    padding: 15px 20px;
+
+    background-color: $colorFormFields;
+
+    &--message {
+      resize: none;
+      height: 148px;
+    }
+
+    &::placeholder {
+      color: $colorSecondary;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    &:focus {
+      outline: none;
+      border: 1px solid $colorHover;
+      box-shadow: 0 0 10px $colorPrimary;
+    }
+  }
+
+  &__privacy-policy {
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__privacy-checkbox {
+    width: 24px;
+    height: 24px;
+  }
+
+  &__privacy-description {
+    max-width: 330px;
+  }
+}

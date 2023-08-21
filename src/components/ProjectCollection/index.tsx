@@ -1,6 +1,7 @@
 import './ProjectCollection.scss';
 
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import { IProjectData } from '../../types';
 import { CustomButton } from '../CustomButton';
@@ -35,8 +36,14 @@ const projects: IProjectData[] = [
 ];
 
 export const ProjectCollection = () => {
+  const navigation = useNavigate();
+
+  const handleClick = () => {
+    navigation('/projects');
+  };
+
   return (
-    <section className="project-collection">
+    <div className="project-collection">
       <h3 className="project-collection__title">Наши проекты</h3>
 
       <div className="project-collection__container">
@@ -63,8 +70,13 @@ export const ProjectCollection = () => {
       </div>
 
       <div className="project-collection__button">
-        <CustomButton text="все проекты" isWithoutBorder dark />
+        <CustomButton
+          text="все проекты"
+          isWithoutBorder
+          dark
+          onClick={handleClick}
+        />
       </div>
-    </section>
+    </div>
   );
 };
