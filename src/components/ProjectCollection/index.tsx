@@ -9,27 +9,27 @@ import { ProjectCard } from '../ProjectCard';
 
 const projects: IProjectData[] = [
   {
-    image: 'images/projects/building_plate_type.svg',
+    image: 'images/projects/building_plate_type.jpg',
     title: 'досуговый центр',
     link: '/projects/buildings/plate-type',
   },
   {
-    image: 'images/projects/building_art_object.svg',
+    image: 'images/projects/building_art_object.jpg',
     title: 'арт объект',
     link: '/projects/buildings/art-object',
   },
   {
-    image: 'images/projects/building_sport.svg',
+    image: 'images/projects/building_sport.jpg',
     title: 'cпорт',
     link: '/projects/buildings/sport',
   },
   {
-    image: 'images/projects/building_home.svg',
+    image: 'images/projects/building_home.jpg',
     title: 'жилищный комплекс',
     link: '/projects/buildings/home',
   },
   {
-    image: 'images/projects/building_park.svg',
+    image: 'images/projects/building_park.jpg',
     title: 'парки',
     link: '/projects/buildings/park',
   },

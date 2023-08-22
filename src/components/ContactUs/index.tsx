@@ -104,7 +104,7 @@ export const ContactUs = () => {
         </div>
 
         <img
-          src="/images/contact-us/man_talk_phone.svg"
+          src="/images/contact-us/man_talk_phone.jpg"
           alt="man talk by phone"
           className="contact-us__image"
         />
