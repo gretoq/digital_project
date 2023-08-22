@@ -1,46 +1,55 @@
-# Getting Started with Create React App
+<div style="text-align: center">
+  <a href="https://kids-test-dovhun-mt4egc29b-gretoq.vercel.app/" target="_blank"><img src="public/logo/logo_footer.svg" alt="logo" ></a>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#
 
-## Available Scripts
+This is a React application designed for desktop devices. It includes a main page, routing to other pages, and various placeholder pages with minimal content (only displaying page names). There's also an error page (Not Found page) for when users enter an invalid URL. Styling is done using SCSS, and the layout is currently optimized for desktop, with potential for expansion to other platforms in the future.
 
-In the project directory, you can run:
+(Logo is a link to [deploy](https://kids-test-dovhun-mt4egc29b-gretoq.vercel.app/) or [DEMO](https://kids-test-dovhun-mt4egc29b-gretoq.vercel.app/), depending on personal preferences.)
 
-### `yarn start`
+## Technologies and Dependencies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React
+- React Router
+- React Icons
+- TypeScript
+- ESLint
+- Prettier
+- Classnames
+- JSX
+- SASS
+- other dependencies (see package.json)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Pagespeed Optimization
 
-### `yarn test`
+Performance and accessibility optimizations have been implemented to enhance user experience. Below is a performance report from PageSpeed:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<div style="text-align: center">
+  <img src="public/readme/pagespeed.png">
+</div>
 
-### `yarn build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone this repository to your computer.
+2. Open a terminal and navigate to the project folder.
+3. Run the command `npm install` to install the necessary dependencies.
+4. Start the application with the command `npm start`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Open your web browser and go to `http://localhost:3000`.
+2. Explore the main page with the banner, sections about the company and its goals, and the collection of projects.
+3. Interact with interactive elements and navigate to detailed project descriptions.
+4. Explore other pages, including "Not found", to test the handling of incorrect addresses.
 
-### `yarn eject`
+## Contact
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+If you have questions or suggestions, please contact us:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Email: dovhun.artem.job@gmail.com
+- Social Media: [LinkedIn](https://www.linkedin.com/in/dovhun-artem/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+&copy; 2023 Have A Great Day!
