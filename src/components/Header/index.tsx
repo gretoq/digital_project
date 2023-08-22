@@ -3,6 +3,7 @@ import './Header.scss';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+import { navigationPaths } from '../../utils/constants';
 import { PageNavLink } from '../PageNavLink';
 
 export const Header = () => {
@@ -15,21 +16,13 @@ export const Header = () => {
 
         <nav className="nav-bar__naviganiton navigation grid__item--desktop-5-11">
           <ul className="navigation__list">
-            <li className="navigation__item">
-              <PageNavLink to="/" text="Главная" />
-            </li>
-            <li className="navigation__item">
-              <PageNavLink to="/gallery" text="Галерея" />
-            </li>
-            <li className="navigation__item">
-              <PageNavLink to="/projects" text="Проекты" />
-            </li>
-            <li className="navigation__item">
-              <PageNavLink to="/sertificats" text="Сертификаты" />
-            </li>
-            <li className="navigation__item">
-              <PageNavLink to="/contacts" text="Контакти" />
-            </li>
+            {navigationPaths.map(({ title, path }) => {
+              return (
+                <li className="navigation__item" key={path}>
+                  <PageNavLink to={path} text={title} />
+                </li>
+              );
+            })}
           </ul>
         </nav>
       </div>

@@ -21,7 +21,7 @@ interface Props {
   onSubmit: (event: React.FormEvent<HTMLFormElement>) => void;
 }
 
-const ContactForm: React.FC<Props> = ({
+export const ContactForm: React.FC<Props> = ({
   name,
   phone,
   email,
@@ -109,5 +109,3 @@ const ContactForm: React.FC<Props> = ({
     </form>
   );
 };
-
-export default ContactForm;

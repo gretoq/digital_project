@@ -2,7 +2,7 @@ import './ContactUs.scss';
 
 import React, { useState } from 'react';
 
-import ContactForm from '../ContactForm';
+import { ContactForm } from '../ContactForm';
 
 export const ContactUs = () => {
   const [privacyCheck, setPrivacyCheck] = useState(true);

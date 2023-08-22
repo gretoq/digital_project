@@ -3,6 +3,7 @@ import './App.scss';
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
+import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import { ContactsPage } from './pages/ContactsPage';
 import { GalleryPage } from './pages/GalleryPage';
@@ -30,7 +31,7 @@ function App() {
           </Routes>
         </div>
 
-        {/* <Footer /> */}
+        <Footer />
       </main>
     </div>
   );

@@ -14,8 +14,23 @@
     color: $colorHover;
   }
 
-  &.is-active {
+  &--active {
     border-top: 1px solid $colorPrimary;
     border-bottom: 1px solid $colorPrimary;
+  }
+
+  &--footer {
+    text-transform: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+
+    color: $colorLight;
+
+    &:hover {
+      color: $colorHover;
+    }
   }
 }

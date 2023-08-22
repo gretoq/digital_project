@@ -37,8 +37,17 @@
 @font-face {
   font-family: 'SF Pro Display';
   src:
-    local('TT Hoves'),
+    local('SF Pro Display'),
     url('../fonts/SF-Pro-Display-Black.otf') format('opentype');
   font-style: normal;
   font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src:
+    local('Open Sans'),
+    url('../fonts/OpenSans-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
 }

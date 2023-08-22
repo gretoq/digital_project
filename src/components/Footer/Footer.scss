@@ -1,0 +1,45 @@
+@import '../../styles/utils';
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  // height: 417px;
+
+  background-color: $colorPrimary;
+
+  &__main-container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 60px 0;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    display: inline-block;
+    // max-width: 145px;
+  }
+
+  &__copyrights-container {
+    padding: 24px 0;
+    border-top: 1px solid $colorBorderFooter;
+  }
+
+  &__copyrights-title {
+    text-align: center;
+
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+
+    color: $colorCopyrights;
+
+    opacity: 0.5;
+  }
+}
