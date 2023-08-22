@@ -10,10 +10,15 @@ export const FooterSocial = () => {
       <h4 className="footer-social__title">Социальные сети</h4>
 
       <ul className="footer-social__content">
-        {socialData.map(({ link, icon }) => {
+        {socialData.map(({ title, link, icon }) => {
           return (
             <li className="footer-social__item" key={link}>
-              <a href={link} target="_blank" rel="noreferrer">
+              <a
+                href={link}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={`иконка ${title}`}
+              >
                 <span className="footer-social__icon">{icon}</span>
               </a>
             </li>

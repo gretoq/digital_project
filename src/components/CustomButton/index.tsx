@@ -37,6 +37,7 @@ export const CustomButton: React.FC<Props> = ({
       { 'custom-button--dark': dark },
     )}
     onClick={onClick}
+    aria-label={!text && !isLeft ? 'стрелка вправо' : 'стрелка влево'}
     disabled={disabled}
   >
     {text ? text : ''} {isLeft ? <BsArrowLeft /> : <BsArrowRight />}

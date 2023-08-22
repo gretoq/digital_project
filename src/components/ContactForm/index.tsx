@@ -86,6 +86,7 @@ export const ContactForm: React.FC<Props> = ({
         <input
           type="checkbox"
           className="form__privacy-checkbox"
+          aria-label="Согласие на политику конфиденциальности"
           checked={!privacyCheck}
           onChange={onPrivacyChange}
         />
