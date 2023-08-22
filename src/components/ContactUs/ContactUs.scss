@@ -20,4 +20,8 @@
     justify-content: space-between;
     align-items: flex-start;
   }
+
+  &__image {
+    aspect-ratio: 740 / 369;
+  }
 }

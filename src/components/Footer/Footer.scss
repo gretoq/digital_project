@@ -5,8 +5,6 @@
   flex-direction: column;
   justify-content: space-between;
 
-  // height: 417px;
-
   background-color: $colorPrimary;
 
   &__main-container {
@@ -21,7 +19,8 @@
 
   &__logo {
     display: inline-block;
-    // max-width: 145px;
+
+    aspect-ratio: 145 / 94;
   }
 
   &__copyrights-container {

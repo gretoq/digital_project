@@ -11,13 +11,13 @@ export const AboutSection = () => {
         <img
           src="images/about/building_mini.jpg"
           alt="building"
-          className="about-section__double-photo-container--bigger"
+          className="about-section__photo--bigger"
         />
 
         <img
           src="images/about/building_mini_smaller.jpg"
           alt="building"
-          className="about-section__double-photo-container--smaller"
+          className="about-section__photo--smaller"
         />
       </div>
 
@@ -25,7 +25,7 @@ export const AboutSection = () => {
         <img
           src="images/about/building_main.jpg"
           alt="building"
-          className="about-section__single-photo-container--smaller"
+          className="about-section__photo--main"
         />
       </div>
 

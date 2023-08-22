@@ -6,13 +6,18 @@
     align-items: center;
   }
 
-  &__logo {
+  &__link {
     width: 70px;
     height: 44px;
 
     &:hover {
       transform: scale(1.1);
     }
+  }
+
+  &__logo {
+    width: 100%;
+    height: auto;
   }
 }
 

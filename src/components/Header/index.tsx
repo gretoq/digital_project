@@ -10,8 +10,8 @@ export const Header = () => {
   return (
     <header className="nav-bar">
       <div className="grid nav-bar__container">
-        <NavLink className="nav-bar__logo grid__item--desktop-1-1" to="/">
-          <img src="/logo/logo.svg" alt="logo" />
+        <NavLink className="nav-bar__link grid__item--desktop-1-1" to="/">
+          <img src="/logo/logo.svg" alt="logo" className="nav-bar__logo" />
         </NavLink>
 
         <nav className="nav-bar__naviganiton navigation grid__item--desktop-5-11">

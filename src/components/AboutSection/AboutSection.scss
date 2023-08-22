@@ -11,6 +11,18 @@
     gap: 30px;
   }
 
+  &__photo--bigger {
+    aspect-ratio: 270 / 265;
+  }
+
+  &__photo--smaller {
+    aspect-ratio: 27 / 14;
+  }
+
+  &__photo--main {
+    aspect-ratio: 270 / 345;
+  }
+
   &__single-photo-container {
     align-self: center;
   }
