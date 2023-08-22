@@ -1,5 +1,5 @@
 <div style="text-align: center">
-  <a href="https://kids-test-dovhun-mt4egc29b-gretoq.vercel.app/" target="_blank"><img src="public/logo/logo_footer.svg" alt="logo" ></a>
+  <a href="https://kids-test-dovhun-mt4egc29b-gretoq.vercel.app/" target="_blank"><img src="public/logo/logo_footer.svg" alt="logo" /></a>
 </div>
 
 #
