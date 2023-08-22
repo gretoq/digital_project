@@ -31,6 +31,8 @@ Performance and accessibility optimizations have been implemented to enhance use
 
 ## Installation
 
+0. Install Node.js version v20.5.1
+
 1. Clone this repository to your computer.
 2. Open a terminal and navigate to the project folder.
 3. Run the command `npm install` to install the necessary dependencies.
