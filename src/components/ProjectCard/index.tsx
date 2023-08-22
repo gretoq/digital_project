@@ -25,6 +25,7 @@ export const ProjectCard: React.FC<Props> = ({ projectData }) => {
       <div className="project-card--hover">
         <div className="project-card__hover-container">
           <h4 className="project-card__title">{title}</h4>
+
           <div className="project-card__button">
             <CustomButton text="Подробнее" ghost onClick={handleClick} />
           </div>

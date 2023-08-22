@@ -13,28 +13,24 @@ import { PrivacyPolicyPage } from './pages/PrivacyPolicyPage';
 import { ProjectsPage } from './pages/ProjectsPage';
 import { SertificatsPage } from './pages/SertificatsPage';
 
-function App() {
-  return (
-    <div className="app">
-      <main className="app__main">
-        <Header />
+export const App = () => (
+  <div className="app">
+    <main className="app__main">
+      <Header />
 
-        <div className="app__content-container">
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/gallery" element={<GalleryPage />} />
-            <Route path="/projects" element={<ProjectsPage />} />
-            <Route path="/sertificats" element={<SertificatsPage />} />
-            <Route path="/contacts" element={<ContactsPage />} />
-            <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
-            <Route path="*" element={<NotFoundPage />} />
-          </Routes>
-        </div>
+      <div className="app__content-container">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/gallery" element={<GalleryPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/sertificats" element={<SertificatsPage />} />
+          <Route path="/contacts" element={<ContactsPage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+          <Route path="*" element={<NotFoundPage />} />
+        </Routes>
+      </div>
 
-        <Footer />
-      </main>
-    </div>
-  );
-}
-
-export default App;
+      <Footer />
+    </main>
+  </div>
+);

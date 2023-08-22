@@ -8,28 +8,26 @@ import { GoalsSection } from '../../components/GoalsSection';
 import { ProjectCollection } from '../../components/ProjectCollection';
 import { ProjectHome } from '../../components/ProjectHome';
 
-export const HomePage = () => {
-  return (
-    <>
-      <section style={{ marginBottom: '120px' }}>
-        <ProjectHome />
-      </section>
+export const HomePage = () => (
+  <div className="home-page">
+    <section className="home-page__section">
+      <ProjectHome />
+    </section>
 
-      <section style={{ marginBottom: '120px' }}>
-        <AboutSection />
-      </section>
+    <section className="home-page__section">
+      <AboutSection />
+    </section>
 
-      <section style={{ marginBottom: '120px' }}>
-        <GoalsSection />
-      </section>
+    <section className="home-page__section">
+      <GoalsSection />
+    </section>
 
-      <section style={{ marginBottom: '120px' }}>
-        <ProjectCollection />
-      </section>
+    <section className="home-page__section">
+      <ProjectCollection />
+    </section>
 
-      <section style={{ marginBottom: '120px' }}>
-        <ContactUs />
-      </section>
-    </>
-  );
-};
+    <section className="home-page__section">
+      <ContactUs />
+    </section>
+  </div>
+);

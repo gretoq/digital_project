@@ -13,13 +13,8 @@ export const FooterInformation = () => {
     window.scrollTo({ top: 0 });
   };
 
-  const handleNavClick = (to: string) => {
-    if (location.pathname === to) {
-      return scrollToTop;
-    }
-
-    return undefined;
-  };
+  const handleNavClick = (to: string) =>
+    location.pathname === to ? scrollToTop : undefined;
 
   return (
     <div className="form-information">

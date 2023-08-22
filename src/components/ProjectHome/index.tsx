@@ -5,11 +5,10 @@ import React from 'react';
 import { ProjectBanner } from '../ProjectBanner';
 import { ProjectController } from '../ProjectController';
 
-export const ProjectHome = () => {
-  return (
-    <div className="project-home grid">
-      <ProjectController />
-      <ProjectBanner />
-    </div>
-  );
-};
+export const ProjectHome = () => (
+  <div className="project-home grid">
+    <ProjectController />
+
+    <ProjectBanner />
+  </div>
+);
