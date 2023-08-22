@@ -1,12 +1,12 @@
 <div style="text-align: center">
-  <a href="https://kids-test-dovhun-mt4egc29b-gretoq.vercel.app/" target="_blank"><img src="public/logo/logo_footer.svg" alt="logo" /></a>
+  <a href="https://digital-project-gretoq.vercel.app/" target="_blank"><img src="public/logo/logo_footer.svg" alt="logo" /></a>
 </div>
 
 #
 
-This is a React application designed for desktop devices. It includes a main page, routing to other pages, and various placeholder pages with minimal content (only displaying page names). There's also an error page (Not Found page) for when users enter an invalid URL. Styling is done using SCSS, and the layout is currently optimized for desktop, with potential for expansion to other platforms in the future.
+This is a React application designed for desktop devices. It includes a main page, routing to other pages, and various placeholder pages with minimal content (only displaying page names). There's also an error page (Not Found page) for when users enter an invalid URL. Styling is done using SCSS, and the layout is currently optimized for desktop, with the potential for expansion to other platforms in the future.
 
-(Logo is a link to [deploy](https://kids-test-dovhun-mt4egc29b-gretoq.vercel.app/) or [DEMO](https://kids-test-dovhun-mt4egc29b-gretoq.vercel.app/), depending on personal preferences.)
+(Logo is a link to [deploy](https://digital-project-gretoq.vercel.app/) or [DEMO](https://digital-project-gretoq.vercel.app/), depending on personal preferences.)
 
 ## Technologies and Dependencies
 
@@ -26,7 +26,7 @@ This is a React application designed for desktop devices. It includes a main pag
 Performance and accessibility optimizations have been implemented to enhance user experience. Below is a performance report from PageSpeed:
 
 <div style="text-align: center">
-  <img src="public/readme/pagespeed.png">
+  <img src="public/pagespeed.png">
 </div>
 
 ## Installation
